@@ -2,10 +2,10 @@ browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note
 browser-->server: form data in request body
 
 note over browser:
-Browser sends a POST request containing the form data
-to the server.
+Browser sends a POST request containing
+the form data to the server.
 After the successful POST request, the
-browser sends a GET request to the notes page to reload.
+browser reloads the page by sending a GET request.
 end note
 
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes

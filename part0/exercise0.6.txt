@@ -1,0 +1,14 @@
+note over browser:
+after clicking the submit button, the new note
+is added to the list of notes client-side and the
+page is updated dynamically.
+end note
+
+note over browser:
+the browser then sends an HTTP POST request
+using XHR with the JSON of the newly created
+note to save it in the server's database
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+browser-->server: JSON of newly created note
